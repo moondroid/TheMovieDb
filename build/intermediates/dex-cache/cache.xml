@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Marco\DEVELOPMENT\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-de37834a980560e13b87fd74105e14bc44850295.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4796f18d3750bf2bfa078407a94a7f9db35b440d">
+        <dex dex="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\pre-dexed\debug\classes-93acbee5c47cc46066e26c76457d43e8ef0c44f9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\pre-dexed\debug\library-2.4.0-b4f67e7032da4e80a911df48431e8b77f7e00ab0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\pre-dexed\debug\gson-2.3.1-34ac27ba0961446bf432a30cbf208ffc1caf92b3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\.gradle\caches\modules-2\files-2.1\com.joanzapata.android\android-iconify\1.0.9\27817b0ae26d4fa788711f1f75aaa45d76901722\android-iconify-1.0.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="27817b0ae26d4fa788711f1f75aaa45d76901722">
+        <dex dex="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\pre-dexed\debug\android-iconify-1.0.9-bdae6501c428f1afbab2a7650fe423d36022d340.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\pre-dexed\debug\classes-ee8fc4d4114f3c175e91fff5f32e394215f5d46f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-ff66edade2cb49615f03a1768a395cbae138c6a6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\pre-dexed\debug\retrofit-1.9.0-cb30854023ecba9e0955fe6458bbdddb724f3c9a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\pre-dexed\debug\butterknife-6.1.0-68d05044d647a96017970a7150a52c4bc5f9c823.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\pre-dexed\debug\classes-b26c2c8f2da43f8f9aba80a6359d91e831d3684b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\exploded-aar\TheMovieDb\library\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="06170a59bfed55069bfbe0920cea205103cfefea">
+        <dex dex="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\pre-dexed\debug\classes-552c4f74d7af561584c10e993afa05a4e81e8322.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\exploded-aar\com.melnykov\floatingactionbutton\1.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="65620ba5e576dcec2c86efa440b00d042a27383b">
+        <dex dex="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\pre-dexed\debug\classes-60897e7864be0fc3388782a85cceb69d609cf986.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.4.0\f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2\picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\pre-dexed\debug\picasso-2.4.0-5012460323e3fbc599889ee1d100e3b8b4c4d428.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Marco\AndroidStudioProjects\TheMovieDb\app\build\intermediates\pre-dexed\debug\classes-d9ea24329622c8faea92f542f8bb2450a9f4f3f0.jar" />
+    </item>
+
+</items>
