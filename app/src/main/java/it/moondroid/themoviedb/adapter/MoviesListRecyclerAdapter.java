@@ -26,6 +26,11 @@ public class MoviesListRecyclerAdapter extends RecyclerView.Adapter<MoviesListRe
 
     private List<Result> movies = Collections.emptyList();
     private final Context context;
+    private OnItemClickListener mListener;
+
+    public interface OnItemClickListener {
+        public void onItemClick(View view, int position);
+    }
 
     public MoviesListRecyclerAdapter(Context context) {
         this.context = context;
@@ -36,10 +41,22 @@ public class MoviesListRecyclerAdapter extends RecyclerView.Adapter<MoviesListRe
         notifyDataSetChanged();
     }
 
+    public Result getItem(int position){
+        return movies.get(position);
+    }
+
     @Override
-    public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
+    public ViewHolder onCreateViewHolder(ViewGroup viewGroup, final int i) {
         View modelView = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.movie_item,
                 viewGroup, false);
+//        modelView.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                if (mListener != null) {
+//                    mListener.onItemClick(v, i);
+//                }
+//            }
+//        });
         return new ViewHolder(modelView);
     }
 
@@ -52,6 +69,10 @@ public class MoviesListRecyclerAdapter extends RecyclerView.Adapter<MoviesListRe
     @Override
     public int getItemCount() {
         return movies.size();
+    }
+
+    public void setOnItemClickListener(OnItemClickListener listener){
+        mListener = listener;
     }
 
     private void renderMovieView(Result movie, ViewHolder viewHolder) {
@@ -72,7 +93,6 @@ public class MoviesListRecyclerAdapter extends RecyclerView.Adapter<MoviesListRe
         viewHolder.movieReleaseDate.setText(movie.release_date);
     }
 
-
     public class ViewHolder extends RecyclerView.ViewHolder {
         @InjectView(R.id.iv_poster_image)
         protected ImageView ivPosterImage;
@@ -86,6 +106,15 @@ public class MoviesListRecyclerAdapter extends RecyclerView.Adapter<MoviesListRe
         public ViewHolder(View view) {
             super(view);
             ButterKnife.inject(this, view);
+
+            view.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (mListener != null) {
+                        mListener.onItemClick(v, getPosition());
+                    }
+                }
+            });
         }
     }
 }

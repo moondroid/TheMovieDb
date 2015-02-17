@@ -10,7 +10,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.ButterKnife;
@@ -122,6 +124,15 @@ public class MoviesListFragment extends Fragment {
 //                moviesListPresenter.onItemSelected(position);
 //            }
 //        });
+
+        moviesListAdapter.setOnItemClickListener(new MoviesListRecyclerAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(View view, int position) {
+
+                String title =  moviesListAdapter.getItem(position).title;
+                Toast.makeText(getActivity(), title, Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     private void loadMovies() {
