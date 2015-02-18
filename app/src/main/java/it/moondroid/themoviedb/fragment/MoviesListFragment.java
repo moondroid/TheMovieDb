@@ -118,12 +118,6 @@ public class MoviesListFragment extends Fragment {
         moviesListView.setItemAnimator(new DefaultItemAnimator());
         moviesListAdapter = new MoviesListRecyclerAdapter(getActivity().getApplicationContext());
         moviesListView.setAdapter(moviesListAdapter);
-//        moviesListView.setOnItemClickListener(new ClickRecyclerView.OnItemClickListener() {
-//            @Override
-//            public void onItemClick(RecyclerView parent, View view, int position, long id) {
-//                moviesListPresenter.onItemSelected(position);
-//            }
-//        });
 
         moviesListAdapter.setOnItemClickListener(new MoviesListRecyclerAdapter.OnItemClickListener() {
             @Override

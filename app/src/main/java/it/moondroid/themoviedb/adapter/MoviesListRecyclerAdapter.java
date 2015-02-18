@@ -49,14 +49,7 @@ public class MoviesListRecyclerAdapter extends RecyclerView.Adapter<MoviesListRe
     public ViewHolder onCreateViewHolder(ViewGroup viewGroup, final int i) {
         View modelView = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.movie_item,
                 viewGroup, false);
-//        modelView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                if (mListener != null) {
-//                    mListener.onItemClick(v, i);
-//                }
-//            }
-//        });
+
         return new ViewHolder(modelView);
     }
 
